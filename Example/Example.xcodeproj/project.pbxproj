@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31E074FC1C7608410094165E /* RingDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E074FB1C7608410094165E /* RingDayModel.m */; settings = {ASSET_TAGS = (); }; };
 		A478836B7E6915F6A886DADD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A32EECC3DD04D628CA764863 /* libPods.a */; };
 		AB21D7A11B55570E006BC9D1 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB21D79F1B55570E006BC9D1 /* BasicViewController.m */; };
 		AB21D7A21B55570E006BC9D1 /* BasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB21D7A01B55570E006BC9D1 /* BasicViewController.xib */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31E074FA1C7608410094165E /* RingDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingDayModel.h; sourceTree = "<group>"; };
+		31E074FB1C7608410094165E /* RingDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingDayModel.m; sourceTree = "<group>"; };
 		A32EECC3DD04D628CA764863 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB21D79E1B55570E006BC9D1 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
 		AB21D79F1B55570E006BC9D1 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				AB6843EF1A06FCE2000ADE68 /* Images.xcassets */,
 				AB6843F11A06FCE2000ADE68 /* LaunchScreen.xib */,
 				AB6843E21A06FCE2000ADE68 /* Supporting Files */,
+				31E074FA1C7608410094165E /* RingDayModel.h */,
+				31E074FB1C7608410094165E /* RingDayModel.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			files = (
 				AB21D7A91B55572D006BC9D1 /* CustomViewController.m in Sources */,
 				AB21D7A11B55570E006BC9D1 /* BasicViewController.m in Sources */,
+				31E074FC1C7608410094165E /* RingDayModel.m in Sources */,
 				AB21D7B41B55694B006BC9D1 /* VerticalViewController.m in Sources */,
 				AB6843E81A06FCE2000ADE68 /* AppDelegate.m in Sources */,
 				AB6843E51A06FCE2000ADE68 /* main.m in Sources */,

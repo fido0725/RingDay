@@ -1,14 +1,21 @@
 PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - JTCalendar (2.1.4)
 
 DEPENDENCIES:
+  - FMDB (from `..`)
   - JTCalendar (from `..`)
 
 EXTERNAL SOURCES:
+  FMDB:
+    :path: ..
   JTCalendar:
     :path: ..
 
 SPEC CHECKSUMS:
-  JTCalendar: 9b1352c7ec41cc26b19c189d6608ba48060a53d9
+  FMDB: 0e43d8cf6106f1a543d8333fe33ae957cbd355d5
+  JTCalendar: c2f30fe2a1c4d37ea905297e8eff0226fb0a7db3
 
-COCOAPODS: 0.39.0
+COCOAPODS: 0.35.0
