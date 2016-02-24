@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31E074FC1C7608410094165E /* RingDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E074FB1C7608410094165E /* RingDayModel.m */; settings = {ASSET_TAGS = (); }; };
+		5F54CD1A1C7D9ADC00A536AA /* jie.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F54CD191C7D9ADC00A536AA /* jie.plist */; settings = {ASSET_TAGS = (); }; };
 		A478836B7E6915F6A886DADD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A32EECC3DD04D628CA764863 /* libPods.a */; };
 		AB21D7A11B55570E006BC9D1 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB21D79F1B55570E006BC9D1 /* BasicViewController.m */; };
 		AB21D7A21B55570E006BC9D1 /* BasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB21D7A01B55570E006BC9D1 /* BasicViewController.xib */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		31E074FA1C7608410094165E /* RingDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingDayModel.h; sourceTree = "<group>"; };
 		31E074FB1C7608410094165E /* RingDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingDayModel.m; sourceTree = "<group>"; };
+		5F54CD191C7D9ADC00A536AA /* jie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jie.plist; sourceTree = "<group>"; };
 		A32EECC3DD04D628CA764863 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB21D79E1B55570E006BC9D1 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
 		AB21D79F1B55570E006BC9D1 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		AB6843E11A06FCE2000ADE68 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				5F54CD191C7D9ADC00A536AA /* jie.plist */,
 				AB21D7B01B555839006BC9D1 /* Controllers */,
 				AB6843E61A06FCE2000ADE68 /* AppDelegate.h */,
 				AB6843E71A06FCE2000ADE68 /* AppDelegate.m */,
@@ -202,6 +205,7 @@
 			files = (
 				AB21D7AA1B55572D006BC9D1 /* CustomViewController.xib in Resources */,
 				AB21D7A21B55570E006BC9D1 /* BasicViewController.xib in Resources */,
+				5F54CD1A1C7D9ADC00A536AA /* jie.plist in Resources */,
 				AB21D7B51B55694B006BC9D1 /* VerticalViewController.xib in Resources */,
 				AB21D7AF1B555738006BC9D1 /* SelectionViewController.xib in Resources */,
 				AB6843F31A06FCE2000ADE68 /* LaunchScreen.xib in Resources */,
@@ -322,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -357,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -371,7 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -384,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
